@@ -63,6 +63,21 @@ def convTipo(tipo):
 
 
 
+equivalenciasColumnas ={
+    
+    'L1 °C': 'Calentamiento L1',
+    'L2 °C': 'Calentamiento L2',
+    'L1 °C.1':'Empape L2',
+    'm/s': 'Vel. Pasaje',
+    'm3/h': 'Flujo',
+    'L1 °C.2': 'Calentamiento L1',
+    'L2 °C.1': 'Calentamiento L2',
+    'L1 °C.3':'Empape L1',
+    'L2 °c':'Empape L2',
+    'seg.1':'TC [s]'
+    
+}
+
 
 def verify_Data():
     datos = parse_data()
@@ -88,8 +103,21 @@ def verify_Data():
         
         itemunico.loc[indicefila]
         
+        nuevaData = datos.iloc[0]
         
         
+        for columna_nuevo, columna_excel in equivalenciasColumnas.items():
+            if columna_nuevo in nuevaData.index and columna_excel in datos.columns:
+                datos.loc[indicefila, columna_excel] = nuevaData[columna_nuevo]
+                
+                
+                
+            print(datos)    
+                
+            datos.to_excel(template, index=False)
+            print("Se han escrito los nuevos datos en la fila del ítem .")
+            
+            
         print(itemunico)
         
         print(d)
