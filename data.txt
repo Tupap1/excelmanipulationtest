@@ -1,0 +1,49 @@
+
+def obtener_Token_acces(aplicationId, clientSecret, scopes):
+    client = msal.ConfidentialClientApplication(
+        client_id = aplicationId,
+        client_credential = clientSecret,
+        authority = 'https://login.microsoftonline.com/consumers/' 
+        
+    )
+    
+    auth_request_url= client.get_authorization_request_url(scopes)
+    webbrowser.open(auth_request_url)
+    autorizationCode = input("enter ur autorization code: ") 
+    
+    tokenResponse = client.acquire_token_by_authorization_code(
+        code = autorizationCode,
+        scopes = scopes
+    )
+    
+    if 'access_code' in tokenResponse:
+        return tokenResponse['access_token']
+    else:
+        return ' no se pudo obtener el token ' + str(tokenResponse)
+
+
+
+
+
+
+
+""" def main():
+    load_dotenv()
+    APPLICATION_ID =  os.getenv('APLICATION_ID')
+    CLIENT_SECRET = os.getenv('CLIENT_SECRET')
+    SCOPES = ['User.Read', 'User.Read']
+    
+    try:
+        access_token = obtener_Token_acces(aplicationId=APPLICATION_ID, clientSecret=CLIENT_SECRET,scopes= SCOPES)
+        headers = {
+            'autorization': 'Bearer: ' + access_token
+        }
+        print(headers)
+    except Exception as e:
+        print(f'error: {e}')
+        
+    
+    
+    #verify_Data()
+    
+main() """
