@@ -1,3 +1,11 @@
+import webbrowser
+import msal
+from dotenv import load_dotenv
+import os
+
+
+
+
 
 def obtener_Token_acces(aplicationId, clientSecret, scopes):
     client = msal.ConfidentialClientApplication(
