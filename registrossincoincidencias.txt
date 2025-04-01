@@ -1,0 +1,50 @@
+            CASING
+
+-  Clave: 364.0, OD: 9.625, WT: 0.472, Tipo: CAS, Grado: TN95HC 
+-  Clave: 704.0, OD: 9.625, WT: 0.472, Tipo: CAS, Grado: TN95HC 
+-  Clave: 939.0, OD: 9.625, WT: 0.472, Tipo: CAS, Grado: TN95HC 
+-  Clave: 563, OD: 8.622, WT: 0.323, Tipo: CAS, Grado: X42 
+-  Clave: 773, OD: 8.622, WT: 0.323, Tipo: CAS, Grado: X42 
+-  Clave: 563.0, OD: 8.622, WT: 0.323, Tipo: CAS, Grado: X52 
+-  Clave: TC013, OD: 5.5, WT: 0.275, Tipo: CAS, Grado: J55 
+-  Clave: 999.0, OD: 9.625, WT: 0.435, Tipo: CAS, Grado: N80 
+-  Clave: 364, OD: 7.0, WT: 0.317, Tipo: CAS, Grado: L80 
+-  Clave: 999.0, OD: 9.625, WT: 0.435, Tipo: CAS, Grado: L80 
+-  Clave: 356, OD: 7.0, WT: 0.408, Tipo: CAS, Grado: L80ICY 
+-  Clave: 360, OD: 7.0, WT: 0.408, Tipo: CAS, Grado: L80ICY 
+-  Clave: 356, OD: 7.0, WT: 0.408, Tipo: CAS, Grado: L80ICY 
+-  Clave: 350.0, OD: 5.5, WT: 0.275, Tipo: CAS, Grado: N80 
+-  Clave: 999.0, OD: 7.0, WT: 0.317, Tipo: CAS, Grado: N80 
+-  Clave: 999, OD: 7.0, WT: 0.362, Tipo: CAS, Grado: N80 
+-  Clave: 999.0, OD: 7.0, WT: 0.408, Tipo: CAS, Grado: N80 
+-  Clave: 302, OD: 7.0, WT: 0.408, Tipo: CAS, Grado: N80 
+-  Clave: 350, OD: 7.0, WT: 0.453, Tipo: CAS, Grado: N80 
+-  Clave: 350, OD: 9.625, WT: 0.394, Tipo: CAS, Grado: N80 
+-  Clave: 999.0, OD: 9.625, WT: 0.435, Tipo: CAS, Grado: N80 
+-  Clave: 999, OD: 9.625, WT: 0.472, Tipo: CAS, Grado: N80 
+-  Clave: 364.0, OD: 9.625, WT: 0.545, Tipo: CAS, Grado: N80 
+-  Clave: 364.0, OD: 9.625, WT: 0.545, Tipo: CAS, Grado: N80 
+-  Clave: 939.0, OD: 9.625, WT: 0.545, Tipo: CAS, Grado: N80 
+-  Clave: 999.0, OD: 7.0, WT: 0.317, Tipo: CAS, Grado: N80 
+-  Clave: 350, OD: 7.0, WT: 0.453, Tipo: CAS, Grado: N80 
+-  Clave: 999, OD: 9.625, WT: 0.472, Tipo: CAS, Grado: N80 
+-  Clave: 356, OD: 9.625, WT: 0.435, Tipo: CAS, Grado: P110IC 
+-  Clave: TC014, OD: 4.5, WT: 0.25, Tipo: CAS, Grado: P110IC 
+-  Clave: TC014, OD: 4.5, WT: 0.29, Tipo: CAS, Grado: P110IC 
+-  Clave: 999.0, OD: 7.626, WT: 0.429, Tipo: CAS, Grado: P110 
+-  Clave: 999, OD: 9.625, WT: 0.472, Tipo: CAS, Grado: P110 
+-  Clave: TC014, OD: 5.5, WT: 0.361, Tipo: CAS, Grado: P110IC 
+-  Clave: 704, OD: 9.625, WT: 0.352, Tipo: CAS, Grado: P110 ICCY 
+-  Clave: 364.0, OD: 9.625, WT: 0.472, Tipo: CAS, Grado: TN110HC 
+-  Clave: 364, OD: 9.625, WT: 0.545, Tipo: CAS, Grado: TN110HC 
+-  Clave: 939, OD: 9.625, WT: 0.545, Tipo: CAS, Grado: TN110HC 
+-  Clave: 999, OD: 9.625, WT: 0.545, Tipo: CAS, Grado: TN110HC 
+
+
+            TUBING
+-  Clave: 364.0, OD: 9.625, WT: 0.472, Tipo: CAS, Grado: TN110 HC 
+-  Clave: 999, OD: 9.625, WT: 0.545, Tipo: CAS, Grado: TN110 HC
+-  Clave: 356, OD: 7.0, WT: 0.408, Tipo: CAS, Grado: L80ICY 
+-  Clave: 356, OD: 7.0, WT: 0.408, Tipo: CAS, Grado: L80 ICY 
+-  Clave: 356, OD: 7.0, WT: 0.408, Tipo: CAS, Grado: L80 ICY 
+-  Clave: 360, OD: 7.0, WT: 0.408, Tipo: CAS, Grado: L80 ICY 
