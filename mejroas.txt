@@ -1,0 +1,34 @@
+Tipo                                                         CASING
+OD (mm)                                                       139.7
+WT (mm)                                                       12.09
+Grado                                                      P110 ICY
+Fecha                                           2022-08-05 00:00:00
+Proveedor                                                     Tamsa
+Lote                                                       16812 PB
+Colada                                                        58363
+OP                                                          4734502
+Clave                                                           364
+%CE                                                              54
+Ti/N                                                           3.18
+No. Tubo                                                         14
+YS                                                            130.9
+UTS                                                           143.6
+YS.1                                                          130.6
+UTS.1                                                         142.5
+YS.2                                                          130.2
+UTS.2                                                         141.3
+YS.3                                                          132.0
+UTS.3                                                         143.2
+YS.4                                                          129.9
+UTS.4                                                         141.0
+L1 °C                                                           850
+L2 °C                                                           800
+L1 °C.1                                                         920
+seg                                                             120
+m/s                                                             0.2
+m3/h                                                           1500
+L1 °C.2                                                         555
+L2 °C.1                                                         450
+L1 °C.3                                                         555
+L2 °c                                                           555
+seg.1                                                           120

@@ -3,17 +3,11 @@ import numpy as np
 import logging
 import os
 
-
-
-
-
 logging.basicConfig(filename='registro.log',  
                     level=logging.INFO,    
                     format='%(asctime)s - %(levelname)s - %(message)s')
 
-
 template = "template.xlsx"
-
 
 def parse_data(informacion):
     arrayinfo = pd.read_excel(informacion, header=3, sheet_name="Resultados", usecols="A,B,C,E,D,J,F,X,Y,Z,AB,AC,AD,AE,AF,AG,AH", engine='openpyxl')
@@ -63,7 +57,7 @@ def limiteArriba( x,tolerancia):
 def verify_Data(informacion):
     datos = parse_data(informacion)
     datosformateados = datos.to_numpy()
-    print(datosformateados)
+    #print(datosformateados)
     
     lookUpValues = pd.read_excel(template, header = 0, engine='openpyxl') 
     
@@ -98,29 +92,57 @@ def verify_Data(informacion):
 
                 condicion = (lookUpValues['WT'] >=limiteAbajo(wT, 0.02) )  & (lookUpValues['WT'] <=limiteArriba(wT, 0.02) ) &(lookUpValues['OD'] >=limiteAbajo(oD, 0.5) ) &(lookUpValues['OD'] <=limiteArriba(oD, 0.5) )  & (lookUpValues['TIPO'] == tipo) & (lookUpValues['Clave'] == clave) &  (lookUpValues['Grado'] == grado) 
                 itemunico = lookUpValues[condicion]
-                print("\n")
-                print("Coincidencias en la template")
-                print("\n")
-                print(itemunico)
-                print("\n")
+
                 if len(itemunico) > 1:
                     print(f"Se encontraron muchas coincidencias en la template con estos datos {clave}, {oD}, {wT}, {grado}")
                     print("deseas omitirlos 1. Si o 2. No")     
-                while True:
-                    opcion = input("Elige una opcion (1 o 2): ")   
-                    if opcion == '1':
-                                print("omitiste este registro")
-                                break  
-                    elif opcion == '2':
-                            print("Saliendo del procesamiento.")
-                            return "por favor edita manualmente el archivo"
-                    else:
-                            print("Opción inválida. Por favor, introduce 1 o 2.")
-                print(d)
+                    while True:
+                        opcion = input("Elige una opcion (1 o 2): ")   
+                        if opcion == '1':
+                                    print("omitiste este registro")
+                                    break  
+                        elif opcion == '2':
+                                print("Saliendo del procesamiento.")
+                                return "por favor edita manualmente el archivo"
+                        else:
+                                print("Opción inválida. Por favor, introduce 1 o 2.")
+                #print(d)
                 if itemunico.empty:
+                    items = []
+        
+                    faltan = 0
 
-                    print(d)
-                    print(unmatched_data, "\n")
+                    condicion_wt = (lookUpValues['WT'] >=limiteAbajo(wT, 0.05) )  &  (lookUpValues['WT'] <=limiteArriba(wT, 0.05) )
+                    if not any(condicion_wt):
+                       items.append('WT') 
+                       faltan = faltan + 1
+
+                    condicion_od = (lookUpValues['OD'] >=limiteAbajo(oD, 0.5) ) & (lookUpValues['OD'] <=limiteArriba(oD, 0.5) )
+                    if not any(condicion_od):
+                        items.append('OD') 
+                        faltan = faltan + 1
+
+                    condicion_tipo = (lookUpValues['TIPO'] == tipo)
+                    if not any(condicion_tipo):
+                        items.append('Tipo') 
+                        faltan = faltan + 1
+
+                    condicion_clave = (lookUpValues['Clave'] == clave)
+                    if not any(condicion_clave):
+                        items.append('Clave') 
+                        faltan = faltan + 1
+
+                    condicion_grado = (lookUpValues['Grado'] == grado)
+                    if not any(condicion_grado):
+                        items.append('Grado') 
+                        faltan = faltan + 1
+
+                    print(f"Faltan {faltan} parámetros para una coincidencia del 100%.")
+                    print(items)
+
+
+                    #print(d)
+                    #print(unmatched_data, "\n")
                     print("No se encontro una coincidencia de los datos en la template")
                     print("deseas omitirlos 1. Si o 2. No")
                     while True:
@@ -171,43 +193,132 @@ def verify_Data(informacion):
     
     
 def procesar_carpeta(ruta):
+    
     try:
-        archivos_en_carpeta = os.listdir(ruta)
-        for nombre_archivo in archivos_en_carpeta:
-            if nombre_archivo.endswith((".xlsx", ".xls", ".xlsm")):
-                ruta_completa = os.path.join(ruta, nombre_archivo)
-                print(nombre_archivo)
-                try:
-                    verify_Data(ruta_completa)
-                except Exception as e:
-                    print(f"Se encontró un error al procesar el archivo: {nombre_archivo}")
-                    print(f"Razón del error: {e}")
-                    print("Quieres omitir este archivo y continuar con el siguiente? 1. Sí o 2. No")
-                    while True:
-                        opcion = input("Elige una opcion (1 o 2): ")
-                        if opcion == '1':
-                            print("Omitiendo archivo.")
-                            logging.info(f"Archivo: {nombre_archivo} - Omitido debido a error: {e}")
-                            a = open('archivosconerrores.txt', 'a')
-                            a.write( f'- {ruta_completa} \n')
-                            a.close()
-                            break  
-                        elif opcion == '2':
-                            print("Has seleccionado no omitir.")
-                            return f"Se encontraron errores. Por favor, revisa el archivo: {nombre_archivo} - Razón: {e}"
-                        else:
-                            print("Opcion inválida")
-        print(f"\nProceso completado para todos los archivos Excel en la carpeta: {ruta}")
+        index = 0
+        for (root, subcarpetas, archivos) in os.walk(ruta):
+            for archivo in archivos:
+                if archivo.endswith((".xlsx", ".xls", ".xlsm")):
+                    ruta_completa = os.path.join(root, archivo)
+                    print(ruta_completa)
+                    index = index + 1
+                    try:
+                        verify_Data(ruta_completa)
+                    except Exception as e:
+                        print(f"Se encontró un error al procesar el archivo: {archivo}")
+                        print(f"Razón del error: {e}")
+                        print("Quieres omitir este archivo y continuar con el siguiente? 1. Sí o 2. No")
+                        while True:
+                            opcion = input("Elige una opcion (1 o 2): ")
+                            if opcion == '1':
+                                print("Omitiendo archivo.")
+                                logging.info(f"Archivo: {archivo} - Omitido debido a error: {e}")
+                                a = open('archivosconerrores.txt', 'a')
+                                a.write( f'- {ruta_completa} \n')
+                                a.close()
+                                break  
+                            elif opcion == '2':
+                                print("Has seleccionado no omitir.")
+                                return f"Se encontraron errores. Por favor, revisa el archivo: {archivo} - Razón: {e}"
+                            else:
+                                print("Opcion inválida")
+
+        print(f"\nProceso completado para todos los archivos Excel en la carpeta: {ruta}, se procesaron {index} archivos")
         w = open('carpetasrevisadas.txt','a')
-        w.write(f'- {ruta}\n')
+        w.write(f'- {ruta} - ({index})\n')
         w.close()
+
 
 
     except FileNotFoundError:
         print(f"Error: No se encontró la carpeta {ruta}")
         return f"Error: No se encontró la carpeta {ruta}"
 
+
     
     
-#procesar_carpeta("S:/SEC/TTRTUCA/0- TT04 Master Plan/SPC TT04 2015/SPC TUBING TT04/SPC J55 Tubing TT04")
-verify_Data('S:/SEC/TTRTUCA/0- TT04 Master Plan/SPC TT04 2015/SPC TUBING TT04/SPC J55 Tubing TT04/SPC TJ3125 2015 TT04.xlsx')
+#procesar_carpeta("S:/SEC/TTRTUCA/0- TT04 Master Plan/SPC TT04 2015/SPC CASING TT04")
+
+
+def buscar_con_parametros_en_arbol_excel(ruta_raiz, parametros_busqueda):
+
+    all_matches = []
+    try:
+        for dirpath, dirnames, filenames in os.walk(ruta_raiz):
+            for filename in filenames:
+                if filename.endswith(('.xlsx', '.xls', 'xlsm')):
+                    ruta_archivo = os.path.join(dirpath, filename)
+                    try:
+                        df = pd.read_excel(ruta_archivo,header=3, sheet_name="Resultados", engine = 'openpyxl')
+                        df['Fecha'] = pd.to_datetime(df['Fecha'])
+                        condiciones = pd.Series([True] * len(df)) 
+
+                        for columna, texto_busqueda in parametros_busqueda.items():
+                            if columna == 'Clave':
+                                    if 'Clave' in df.columns:
+                                        columna = 'Clave'
+                                    elif 'CLAVE' in df.columns:
+                                        columna = 'CLAVE'
+                                    elif 'clave' in df.columns:
+                                        columna = 'clave'
+                            if columna in df.columns:
+                                df[columna] = df[columna].astype(str)
+                                condicion_columna = df[columna].str.contains(texto_busqueda, case=False, na=False)
+                                condiciones = condiciones & condicion_columna 
+
+                            else:
+                                print(f"Advertencia: La columna '{columna}' no existe en el archivo '{ruta_archivo}'.")
+                                condiciones = pd.Series([False] * len(df)) 
+
+                        resultados = df[condiciones]
+
+                        if not resultados.empty:
+                            resultados['Archivo_Origen'] = os.path.relpath(ruta_archivo, ruta_raiz)
+                            all_matches.append(resultados)
+
+                    except Exception as e:
+                        print(f"Error al leer el archivo '{ruta_archivo}': {e}")
+
+        if all_matches:
+            df_resultados_final = pd.concat(all_matches, ignore_index=True)
+            ruta_archivo_salida = os.path.join('resultados.xlsx') 
+            arrayordenadoDate = df_resultados_final.sort_values( by='Fecha', ascending=False)
+            arrayordenadoDate.to_excel(ruta_archivo_salida, index=False)
+            print(f"\nSe encontraron coincidencias. Los resultados se han guardado en: {ruta_archivo_salida}")
+            asd = arrayordenadoDate.iloc[0]
+            iop = asd['Archivo_Origen']
+            qwe = iop.replace("\\", "/")
+            return qwe
+
+        else:
+            print("No se encontraron coincidencias con los parámetros especificados.")
+            return None
+
+    except FileNotFoundError:
+        print(f"Error: La carpeta raíz '{ruta_raiz}' no fue encontrada.")
+        return pd.DataFrame()
+    except Exception as e:
+        print(f"Ocurrió un error al procesar la carpeta y sus subdirectorios: {e}")
+        return pd.DataFrame()
+
+
+ruta_de_la_carpeta_raiz = 'S:/SEC/TTRTUCA/0- TT04 Master Plan/SPC TT04 2015/SPC CASING TT04' 
+
+
+
+parametros_de_busqueda = {
+    'Grado': 'N80',  
+    'Clave': '302',
+    'OD (mm)':'177',
+    'WT (mm)': '11',
+    'Proveedor': 'TAMSA' 
+}
+
+
+buscar_con_parametros_en_arbol_excel(ruta_de_la_carpeta_raiz, parametros_de_busqueda)
+
+#print(buscar_con_parametros_en_arbol_excel(ruta_de_la_carpeta_raiz, parametros_de_busqueda))
+#verify_Data(f'S:/SEC/TTRTUCA/0- TT04 Master Plan/SPC TT04 2015/SPC CASING TT04/{buscar_con_parametros_en_arbol_excel(ruta_de_la_carpeta_raiz, parametros_de_busqueda)}')
+
+
+

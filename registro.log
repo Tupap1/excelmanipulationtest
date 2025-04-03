@@ -27807,3 +27807,2057 @@ Pc/Turno                240.0
 Check                      ok
 Vel. Pasaje              21.0
 Name: 42, dtype: object
+2025-04-01 13:47:33,854 - INFO - registro agregado:  TIPO                     CAS
+OD                       5.5
+WT                     0.476
+Grado                    L80
+Clave                    364
+Proveedor              TAMSA
+Calentamiento L1       850.0
+Calentamiento L2       800.0
+Empape L2              920.0
+Vel. Pasaje              0.2
+Flujo                 1500.0
+Calentamiento L1.1     702.0
+Calentamiento L2.1     625.0
+Empape L1              702.0
+Empape L2.1            702.0
+TC [s]                 100.0
+Pc/h                    36.0
+Pc/Turno               288.0
+Check                     ok
+Vel. Pasaje              0.2
+Name: 6, dtype: object
+2025-04-01 13:47:34,175 - INFO - registro agregado:  TIPO                         CAS
+OD                           5.5
+WT                         0.304
+Grado                        L80
+Clave                        350
+Proveedor                  TAMSA
+Calentamiento L1           850.0
+Calentamiento L2           800.0
+Empape L2                  900.0
+Vel. Pasaje                 0.33
+Flujo                     1500.0
+Calentamiento L1.1         680.0
+Calentamiento L2.1         600.0
+Empape L1                  680.0
+Empape L2.1                680.0
+TC [s]                      66.0
+Pc/h                   54.545455
+Pc/Turno              436.363636
+Check                         ok
+Vel. Pasaje                 0.35
+Name: 5, dtype: object
+2025-04-01 13:47:34,305 - INFO - registro agregado:  TIPO                         CAS
+OD                           5.5
+WT                         0.304
+Grado                        L80
+Clave                        701
+Proveedor                SIDERCA
+Calentamiento L1           850.0
+Calentamiento L2           800.0
+Empape L2                  900.0
+Vel. Pasaje                 0.33
+Flujo                     1500.0
+Calentamiento L1.1         680.0
+Calentamiento L2.1         600.0
+Empape L1                  680.0
+Empape L2.1                680.0
+TC [s]                      66.0
+Pc/h                   54.545455
+Pc/Turno              436.363636
+Check                         ok
+Vel. Pasaje                 0.35
+Name: 0, dtype: object
+2025-04-01 13:47:34,730 - INFO - registro agregado:  TIPO                         CAS
+OD                           7.0
+WT                         0.317
+Grado                        L80
+Clave                        350
+Proveedor                  TAMSA
+Calentamiento L1           860.0
+Calentamiento L2           800.0
+Empape L2                  900.0
+Vel. Pasaje                 0.22
+Flujo                     1500.0
+Calentamiento L1.1         680.0
+Calentamiento L2.1         600.0
+Empape L1                  680.0
+Empape L2.1                600.0
+TC [s]                      95.0
+Pc/h                   37.894737
+Pc/Turno              303.157895
+Check                         ok
+Vel. Pasaje                 0.22
+Name: 14, dtype: object
+2025-04-01 13:47:41,509 - INFO - Archivo: SPC CL8070317 2019 TT04 - Calificacion -.xlsm - Registro omitido (sin coincidencia): Clave: 364, OD: 7.0, WT: 0.317, Tipo: CAS, Grado: L80
+2025-04-01 13:47:41,724 - INFO - registro agregado:  TIPO                         CAS
+OD                           7.0
+WT                         0.317
+Grado                        L80
+Clave                        701
+Proveedor                SIDERCA
+Calentamiento L1           860.0
+Calentamiento L2           800.0
+Empape L2                  900.0
+Vel. Pasaje                 0.22
+Flujo                     1500.0
+Calentamiento L1.1         680.0
+Calentamiento L2.1         600.0
+Empape L1                  680.0
+Empape L2.1                600.0
+TC [s]                      95.0
+Pc/h                   37.894737
+Pc/Turno              303.157895
+Check                         ok
+Vel. Pasaje                 0.22
+Name: 10, dtype: object
+2025-04-01 13:47:42,315 - INFO - registro agregado:  TIPO                     CAS
+OD                       7.0
+WT                     0.362
+Grado                    L80
+Clave                    350
+Proveedor              TAMSA
+Calentamiento L1       860.0
+Calentamiento L2       800.0
+Empape L2              930.0
+Vel. Pasaje             0.21
+Flujo                 1580.0
+Calentamiento L1.1     672.0
+Calentamiento L2.1     600.0
+Empape L1              672.0
+Empape L2.1            672.0
+TC [s]                  95.0
+Pc/h                    36.0
+Pc/Turno               288.0
+Check                     ok
+Vel. Pasaje             22.0
+Name: 36, dtype: object
+2025-04-01 13:47:42,462 - INFO - registro agregado:  TIPO                      CAS
+OD                        7.0
+WT                      0.362
+Grado                     L80
+Clave                     701
+Proveedor             SIDERCA
+Calentamiento L1        860.0
+Calentamiento L2        800.0
+Empape L2               930.0
+Vel. Pasaje              0.21
+Flujo                  1580.0
+Calentamiento L1.1      672.0
+Calentamiento L2.1      600.0
+Empape L1               672.0
+Empape L2.1             672.0
+TC [s]                   95.0
+Pc/h                     36.0
+Pc/Turno                288.0
+Check                      ok
+Vel. Pasaje              22.0
+Name: 20, dtype: object
+2025-04-01 13:47:42,587 - INFO - registro agregado:  TIPO                      CAS
+OD                        7.0
+WT                      0.362
+Grado                     L80
+Clave                     704
+Proveedor             SIDERCA
+Calentamiento L1        860.0
+Calentamiento L2        800.0
+Empape L2               930.0
+Vel. Pasaje              0.23
+Flujo                  1580.0
+Calentamiento L1.1      672.0
+Calentamiento L2.1      600.0
+Empape L1               672.0
+Empape L2.1             672.0
+TC [s]                   95.0
+Pc/h                     40.0
+Pc/Turno                320.0
+Check                      ok
+Vel. Pasaje              22.0
+Name: 19, dtype: object
+2025-04-01 13:47:42,977 - INFO - registro agregado:  TIPO                     CAS
+OD                       7.0
+WT                     0.408
+Grado                    L80
+Clave                    350
+Proveedor              TAMSA
+Calentamiento L1       860.0
+Calentamiento L2       800.0
+Empape L2              890.0
+Vel. Pasaje             0.22
+Flujo                 1500.0
+Calentamiento L1.1     670.0
+Calentamiento L2.1     570.0
+Empape L1              670.0
+Empape L2.1            670.0
+TC [s]                  95.0
+Pc/h                    36.0
+Pc/Turno               288.0
+Check                     ok
+Vel. Pasaje             22.0
+Name: 47, dtype: object
+2025-04-01 13:47:43,106 - INFO - registro agregado:  TIPO                      CAS
+OD                        7.0
+WT                      0.408
+Grado                     L80
+Clave                     701
+Proveedor             SIDERCA
+Calentamiento L1        860.0
+Calentamiento L2        800.0
+Empape L2               890.0
+Vel. Pasaje              0.22
+Flujo                  1500.0
+Calentamiento L1.1      670.0
+Calentamiento L2.1      570.0
+Empape L1               670.0
+Empape L2.1             670.0
+TC [s]                   95.0
+Pc/h                     36.0
+Pc/Turno                288.0
+Check                      ok
+Vel. Pasaje              22.0
+Name: 37, dtype: object
+2025-04-01 13:47:44,331 - INFO - registro agregado:  TIPO                         CAS
+OD                         9.625
+WT                         0.395
+Grado                        L80
+Clave                        214
+Proveedor                DALMINE
+Calentamiento L1           870.0
+Calentamiento L2           800.0
+Empape L2                  890.0
+Vel. Pasaje                 0.18
+Flujo                     1600.0
+Calentamiento L1.1         700.0
+Calentamiento L2.1         600.0
+Empape L1                  700.0
+Empape L2.1                700.0
+TC [s]                     111.0
+Pc/h                   32.432432
+Pc/Turno              259.459459
+Check                         ok
+Vel. Pasaje                 0.18
+Name: 62, dtype: object
+2025-04-01 13:47:44,476 - INFO - registro agregado:  TIPO                            CAS
+OD                            9.625
+WT                            0.395
+Grado                           L80
+Clave                           350
+Proveedor             TAMSA/SIDERCA
+Calentamiento L1              870.0
+Calentamiento L2              800.0
+Empape L2                     890.0
+Vel. Pasaje                    0.18
+Flujo                        1600.0
+Calentamiento L1.1            700.0
+Calentamiento L2.1            600.0
+Empape L1                     700.0
+Empape L2.1                   700.0
+TC [s]                        111.0
+Pc/h                      38.709677
+Pc/Turno                 309.677419
+Check                            ok
+Vel. Pasaje                    0.18
+Name: 61, dtype: object
+2025-04-01 13:47:44,614 - INFO - registro agregado:  TIPO                         CAS
+OD                         9.625
+WT                         0.395
+Grado                        L80
+Clave                        356
+Proveedor                  TAMSA
+Calentamiento L1           870.0
+Calentamiento L2           800.0
+Empape L2                  890.0
+Vel. Pasaje                 0.23
+Flujo                     1600.0
+Calentamiento L1.1         700.0
+Calentamiento L2.1         600.0
+Empape L1                  700.0
+Empape L2.1                700.0
+TC [s]                     111.0
+Pc/h                   38.709677
+Pc/Turno              309.677419
+Check                         ok
+Vel. Pasaje                 0.18
+Name: 60, dtype: object
+2025-04-01 13:47:44,743 - INFO - registro agregado:  TIPO                         CAS
+OD                         9.625
+WT                         0.395
+Grado                        L80
+Clave                        710
+Proveedor                SIDERCA
+Calentamiento L1           870.0
+Calentamiento L2           800.0
+Empape L2                  890.0
+Vel. Pasaje                 0.18
+Flujo                     1600.0
+Calentamiento L1.1         700.0
+Calentamiento L2.1         600.0
+Empape L1                  700.0
+Empape L2.1                700.0
+TC [s]                     111.0
+Pc/h                   32.432432
+Pc/Turno              259.459459
+Check                         ok
+Vel. Pasaje                 0.18
+Name: 59, dtype: object
+2025-04-01 13:47:45,111 - INFO - registro agregado:  TIPO                         CAS
+OD                         9.625
+WT                         0.435
+Grado                        L80
+Clave                        350
+Proveedor                SIDERCA
+Calentamiento L1           880.0
+Calentamiento L2           800.0
+Empape L2                  930.0
+Vel. Pasaje                  0.2
+Flujo                     1550.0
+Calentamiento L1.1         672.0
+Calentamiento L2.1         600.0
+Empape L1                  672.0
+Empape L2.1                672.0
+TC [s]                     115.0
+Pc/h                   31.304348
+Pc/Turno              250.434783
+Check                         ok
+Vel. Pasaje                  0.2
+Name: 64, dtype: object
+2025-04-01 13:47:46,956 - INFO - Archivo: SPC CL8095435  2019 TT04  Prueba .xlsm - Registro omitido (sin coincidencia): Clave: 999.0, OD: 9.625, WT: 0.435, Tipo: CAS, Grado: L80
+2025-04-01 13:47:47,775 - INFO - registro agregado:  TIPO                      CAS
+OD                      9.625
+WT                      0.472
+Grado                     L80
+Clave                     214
+Proveedor             DALMINE
+Calentamiento L1        890.0
+Calentamiento L2        800.0
+Empape L2               900.0
+Vel. Pasaje              0.17
+Flujo                  1600.0
+Calentamiento L1.1      700.0
+Calentamiento L2.1      600.0
+Empape L1               700.0
+Empape L2.1             700.0
+TC [s]                  120.0
+Pc/h                     30.0
+Pc/Turno                240.0
+Check                      ok
+Vel. Pasaje              0.17
+Name: 71, dtype: object
+2025-04-01 13:47:47,947 - INFO - registro agregado:  TIPO                            CAS
+OD                            9.625
+WT                            0.472
+Grado                           L80
+Clave                           350
+Proveedor             TAMSA/SIDERCA
+Calentamiento L1              890.0
+Calentamiento L2              800.0
+Empape L2                     900.0
+Vel. Pasaje                    0.17
+Flujo                        1600.0
+Calentamiento L1.1            700.0
+Calentamiento L2.1            600.0
+Empape L1                     700.0
+Empape L2.1                   700.0
+TC [s]                        120.0
+Pc/h                           30.0
+Pc/Turno                      240.0
+Check                            ok
+Vel. Pasaje                    0.17
+Name: 70, dtype: object
+2025-04-01 13:47:48,170 - INFO - registro agregado:  TIPO                         CAS
+OD                         9.625
+WT                         0.472
+Grado                        L80
+Clave                        356
+Proveedor                  TAMSA
+Calentamiento L1           890.0
+Calentamiento L2           800.0
+Empape L2                  900.0
+Vel. Pasaje                 0.17
+Flujo                     1600.0
+Calentamiento L1.1         700.0
+Calentamiento L2.1         600.0
+Empape L1                  700.0
+Empape L2.1                700.0
+TC [s]                     120.0
+Pc/h                   30.508475
+Pc/Turno              244.067797
+Check                         ok
+Vel. Pasaje                 0.17
+Name: 69, dtype: object
+2025-04-01 13:47:48,981 - INFO - registro agregado:  TIPO                            CAS
+OD                            9.625
+WT                            0.545
+Grado                           L80
+Clave                           350
+Proveedor             TAMSA/SIDERCA
+Calentamiento L1              880.0
+Calentamiento L2              800.0
+Empape L2                     910.0
+Vel. Pasaje                    0.16
+Flujo                        1600.0
+Calentamiento L1.1            684.0
+Calentamiento L2.1            590.0
+Empape L1                     684.0
+Empape L2.1                   684.0
+TC [s]                        120.0
+Pc/h                           30.0
+Pc/Turno                      240.0
+Check                            ok
+Vel. Pasaje                    15.0
+Name: 80, dtype: object
+2025-04-01 13:47:55,884 - INFO - Archivo: ~$SPC CL8070362 SMLS  2021 TT04 - Pruebas - .xlsm - Omitido debido a error: File is not a zip file
+2025-04-01 13:48:05,333 - INFO - Archivo: ~$SPC CL8095472 2016 TT04.xlsm - Omitido debido a error: [Errno 13] Permission denied: 'S:/SEC/TTRTUCA/0- TT04 Master Plan/SPC TT04 2015/SPC CASING TT04/SPC L80 Casing TT04\\~$SPC CL8095472 2016 TT04.xlsm'
+2025-04-01 14:03:56,598 - INFO - registro agregado:  TIPO                     CAS
+OD                       5.5
+WT                     0.476
+Grado                    L80
+Clave                    364
+Proveedor              TAMSA
+Calentamiento L1       850.0
+Calentamiento L2       800.0
+Empape L2              920.0
+Vel. Pasaje              0.2
+Flujo                 1500.0
+Calentamiento L1.1     702.0
+Calentamiento L2.1     625.0
+Empape L1              702.0
+Empape L2.1            702.0
+TC [s]                 100.0
+Pc/h                    36.0
+Pc/Turno               288.0
+Check                     ok
+Vel. Pasaje              0.2
+Name: 6, dtype: object
+2025-04-01 14:03:56,899 - INFO - registro agregado:  TIPO                         CAS
+OD                           5.5
+WT                         0.304
+Grado                        L80
+Clave                        350
+Proveedor                  TAMSA
+Calentamiento L1           850.0
+Calentamiento L2           800.0
+Empape L2                  900.0
+Vel. Pasaje                 0.33
+Flujo                     1500.0
+Calentamiento L1.1         680.0
+Calentamiento L2.1         600.0
+Empape L1                  680.0
+Empape L2.1                680.0
+TC [s]                      66.0
+Pc/h                   54.545455
+Pc/Turno              436.363636
+Check                         ok
+Vel. Pasaje                 0.35
+Name: 5, dtype: object
+2025-04-01 14:03:57,025 - INFO - registro agregado:  TIPO                         CAS
+OD                           5.5
+WT                         0.304
+Grado                        L80
+Clave                        701
+Proveedor                SIDERCA
+Calentamiento L1           850.0
+Calentamiento L2           800.0
+Empape L2                  900.0
+Vel. Pasaje                 0.33
+Flujo                     1500.0
+Calentamiento L1.1         680.0
+Calentamiento L2.1         600.0
+Empape L1                  680.0
+Empape L2.1                680.0
+TC [s]                      66.0
+Pc/h                   54.545455
+Pc/Turno              436.363636
+Check                         ok
+Vel. Pasaje                 0.35
+Name: 0, dtype: object
+2025-04-01 14:03:57,438 - INFO - registro agregado:  TIPO                         CAS
+OD                           7.0
+WT                         0.317
+Grado                        L80
+Clave                        350
+Proveedor                  TAMSA
+Calentamiento L1           860.0
+Calentamiento L2           800.0
+Empape L2                  900.0
+Vel. Pasaje                 0.22
+Flujo                     1500.0
+Calentamiento L1.1         680.0
+Calentamiento L2.1         600.0
+Empape L1                  680.0
+Empape L2.1                600.0
+TC [s]                      95.0
+Pc/h                   37.894737
+Pc/Turno              303.157895
+Check                         ok
+Vel. Pasaje                 0.22
+Name: 14, dtype: object
+2025-04-01 14:03:58,748 - INFO - Archivo: SPC CL8070317 2019 TT04 - Calificacion -.xlsm - Registro omitido (sin coincidencia): Clave: 364, OD: 7.0, WT: 0.317, Tipo: CAS, Grado: L80
+2025-04-01 14:03:58,951 - INFO - registro agregado:  TIPO                         CAS
+OD                           7.0
+WT                         0.317
+Grado                        L80
+Clave                        701
+Proveedor                SIDERCA
+Calentamiento L1           860.0
+Calentamiento L2           800.0
+Empape L2                  900.0
+Vel. Pasaje                 0.22
+Flujo                     1500.0
+Calentamiento L1.1         680.0
+Calentamiento L2.1         600.0
+Empape L1                  680.0
+Empape L2.1                600.0
+TC [s]                      95.0
+Pc/h                   37.894737
+Pc/Turno              303.157895
+Check                         ok
+Vel. Pasaje                 0.22
+Name: 10, dtype: object
+2025-04-01 14:03:59,620 - INFO - Archivo: SPC CL8070362 SMLS  2021 TT04 - Pruebas - (1).xlsm - Omitido debido a error: File is not a zip file
+2025-04-01 14:04:00,368 - INFO - registro agregado:  TIPO                     CAS
+OD                       7.0
+WT                     0.362
+Grado                    L80
+Clave                    350
+Proveedor              TAMSA
+Calentamiento L1       860.0
+Calentamiento L2       800.0
+Empape L2              930.0
+Vel. Pasaje             0.21
+Flujo                 1580.0
+Calentamiento L1.1     672.0
+Calentamiento L2.1     600.0
+Empape L1              672.0
+Empape L2.1            672.0
+TC [s]                  95.0
+Pc/h                    36.0
+Pc/Turno               288.0
+Check                     ok
+Vel. Pasaje             22.0
+Name: 36, dtype: object
+2025-04-01 14:04:00,495 - INFO - registro agregado:  TIPO                      CAS
+OD                        7.0
+WT                      0.362
+Grado                     L80
+Clave                     701
+Proveedor             SIDERCA
+Calentamiento L1        860.0
+Calentamiento L2        800.0
+Empape L2               930.0
+Vel. Pasaje              0.21
+Flujo                  1580.0
+Calentamiento L1.1      672.0
+Calentamiento L2.1      600.0
+Empape L1               672.0
+Empape L2.1             672.0
+TC [s]                   95.0
+Pc/h                     36.0
+Pc/Turno                288.0
+Check                      ok
+Vel. Pasaje              22.0
+Name: 20, dtype: object
+2025-04-01 14:04:00,617 - INFO - registro agregado:  TIPO                      CAS
+OD                        7.0
+WT                      0.362
+Grado                     L80
+Clave                     704
+Proveedor             SIDERCA
+Calentamiento L1        860.0
+Calentamiento L2        800.0
+Empape L2               930.0
+Vel. Pasaje              0.23
+Flujo                  1580.0
+Calentamiento L1.1      672.0
+Calentamiento L2.1      600.0
+Empape L1               672.0
+Empape L2.1             672.0
+TC [s]                   95.0
+Pc/h                     40.0
+Pc/Turno                320.0
+Check                      ok
+Vel. Pasaje              22.0
+Name: 19, dtype: object
+2025-04-01 14:04:00,995 - INFO - registro agregado:  TIPO                     CAS
+OD                       7.0
+WT                     0.408
+Grado                    L80
+Clave                    350
+Proveedor              TAMSA
+Calentamiento L1       860.0
+Calentamiento L2       800.0
+Empape L2              890.0
+Vel. Pasaje             0.22
+Flujo                 1500.0
+Calentamiento L1.1     670.0
+Calentamiento L2.1     570.0
+Empape L1              670.0
+Empape L2.1            670.0
+TC [s]                  95.0
+Pc/h                    36.0
+Pc/Turno               288.0
+Check                     ok
+Vel. Pasaje             22.0
+Name: 47, dtype: object
+2025-04-01 14:04:01,119 - INFO - registro agregado:  TIPO                      CAS
+OD                        7.0
+WT                      0.408
+Grado                     L80
+Clave                     701
+Proveedor             SIDERCA
+Calentamiento L1        860.0
+Calentamiento L2        800.0
+Empape L2               890.0
+Vel. Pasaje              0.22
+Flujo                  1500.0
+Calentamiento L1.1      670.0
+Calentamiento L2.1      570.0
+Empape L1               670.0
+Empape L2.1             670.0
+TC [s]                   95.0
+Pc/h                     36.0
+Pc/Turno                288.0
+Check                      ok
+Vel. Pasaje              22.0
+Name: 37, dtype: object
+2025-04-01 14:04:02,259 - INFO - registro agregado:  TIPO                         CAS
+OD                         9.625
+WT                         0.395
+Grado                        L80
+Clave                        214
+Proveedor                DALMINE
+Calentamiento L1           870.0
+Calentamiento L2           800.0
+Empape L2                  890.0
+Vel. Pasaje                 0.18
+Flujo                     1600.0
+Calentamiento L1.1         700.0
+Calentamiento L2.1         600.0
+Empape L1                  700.0
+Empape L2.1                700.0
+TC [s]                     111.0
+Pc/h                   32.432432
+Pc/Turno              259.459459
+Check                         ok
+Vel. Pasaje                 0.18
+Name: 62, dtype: object
+2025-04-01 14:04:02,382 - INFO - registro agregado:  TIPO                            CAS
+OD                            9.625
+WT                            0.395
+Grado                           L80
+Clave                           350
+Proveedor             TAMSA/SIDERCA
+Calentamiento L1              870.0
+Calentamiento L2              800.0
+Empape L2                     890.0
+Vel. Pasaje                    0.18
+Flujo                        1600.0
+Calentamiento L1.1            700.0
+Calentamiento L2.1            600.0
+Empape L1                     700.0
+Empape L2.1                   700.0
+TC [s]                        111.0
+Pc/h                      38.709677
+Pc/Turno                 309.677419
+Check                            ok
+Vel. Pasaje                    0.18
+Name: 61, dtype: object
+2025-04-01 14:04:02,511 - INFO - registro agregado:  TIPO                         CAS
+OD                         9.625
+WT                         0.395
+Grado                        L80
+Clave                        356
+Proveedor                  TAMSA
+Calentamiento L1           870.0
+Calentamiento L2           800.0
+Empape L2                  890.0
+Vel. Pasaje                 0.23
+Flujo                     1600.0
+Calentamiento L1.1         700.0
+Calentamiento L2.1         600.0
+Empape L1                  700.0
+Empape L2.1                700.0
+TC [s]                     111.0
+Pc/h                   38.709677
+Pc/Turno              309.677419
+Check                         ok
+Vel. Pasaje                 0.18
+Name: 60, dtype: object
+2025-04-01 14:04:02,633 - INFO - registro agregado:  TIPO                         CAS
+OD                         9.625
+WT                         0.395
+Grado                        L80
+Clave                        710
+Proveedor                SIDERCA
+Calentamiento L1           870.0
+Calentamiento L2           800.0
+Empape L2                  890.0
+Vel. Pasaje                 0.18
+Flujo                     1600.0
+Calentamiento L1.1         700.0
+Calentamiento L2.1         600.0
+Empape L1                  700.0
+Empape L2.1                700.0
+TC [s]                     111.0
+Pc/h                   32.432432
+Pc/Turno              259.459459
+Check                         ok
+Vel. Pasaje                 0.18
+Name: 59, dtype: object
+2025-04-01 14:04:02,932 - INFO - registro agregado:  TIPO                         CAS
+OD                         9.625
+WT                         0.435
+Grado                        L80
+Clave                        350
+Proveedor                SIDERCA
+Calentamiento L1           880.0
+Calentamiento L2           800.0
+Empape L2                  930.0
+Vel. Pasaje                  0.2
+Flujo                     1550.0
+Calentamiento L1.1         672.0
+Calentamiento L2.1         600.0
+Empape L1                  672.0
+Empape L2.1                672.0
+TC [s]                     115.0
+Pc/h                   31.304348
+Pc/Turno              250.434783
+Check                         ok
+Vel. Pasaje                  0.2
+Name: 64, dtype: object
+2025-04-01 14:04:04,380 - INFO - Archivo: SPC CL8095435  2019 TT04  Prueba .xlsm - Registro omitido (sin coincidencia): Clave: 999.0, OD: 9.625, WT: 0.435, Tipo: CAS, Grado: L80
+2025-04-01 14:04:05,166 - INFO - registro agregado:  TIPO                      CAS
+OD                      9.625
+WT                      0.472
+Grado                     L80
+Clave                     214
+Proveedor             DALMINE
+Calentamiento L1        890.0
+Calentamiento L2        800.0
+Empape L2               900.0
+Vel. Pasaje              0.17
+Flujo                  1600.0
+Calentamiento L1.1      700.0
+Calentamiento L2.1      600.0
+Empape L1               700.0
+Empape L2.1             700.0
+TC [s]                  120.0
+Pc/h                     30.0
+Pc/Turno                240.0
+Check                      ok
+Vel. Pasaje              0.17
+Name: 71, dtype: object
+2025-04-01 14:04:05,291 - INFO - registro agregado:  TIPO                            CAS
+OD                            9.625
+WT                            0.472
+Grado                           L80
+Clave                           350
+Proveedor             TAMSA/SIDERCA
+Calentamiento L1              890.0
+Calentamiento L2              800.0
+Empape L2                     900.0
+Vel. Pasaje                    0.17
+Flujo                        1600.0
+Calentamiento L1.1            700.0
+Calentamiento L2.1            600.0
+Empape L1                     700.0
+Empape L2.1                   700.0
+TC [s]                        120.0
+Pc/h                           30.0
+Pc/Turno                      240.0
+Check                            ok
+Vel. Pasaje                    0.17
+Name: 70, dtype: object
+2025-04-01 14:04:05,418 - INFO - registro agregado:  TIPO                         CAS
+OD                         9.625
+WT                         0.472
+Grado                        L80
+Clave                        356
+Proveedor                  TAMSA
+Calentamiento L1           890.0
+Calentamiento L2           800.0
+Empape L2                  900.0
+Vel. Pasaje                 0.17
+Flujo                     1600.0
+Calentamiento L1.1         700.0
+Calentamiento L2.1         600.0
+Empape L1                  700.0
+Empape L2.1                700.0
+TC [s]                     120.0
+Pc/h                   30.508475
+Pc/Turno              244.067797
+Check                         ok
+Vel. Pasaje                 0.17
+Name: 69, dtype: object
+2025-04-01 14:04:05,877 - INFO - registro agregado:  TIPO                            CAS
+OD                            9.625
+WT                            0.545
+Grado                           L80
+Clave                           350
+Proveedor             TAMSA/SIDERCA
+Calentamiento L1              880.0
+Calentamiento L2              800.0
+Empape L2                     910.0
+Vel. Pasaje                    0.16
+Flujo                        1600.0
+Calentamiento L1.1            684.0
+Calentamiento L2.1            590.0
+Empape L1                     684.0
+Empape L2.1                   684.0
+TC [s]                        120.0
+Pc/h                           30.0
+Pc/Turno                      240.0
+Check                            ok
+Vel. Pasaje                    15.0
+Name: 80, dtype: object
+2025-04-01 14:04:07,757 - INFO - Archivo: ~$SPC CL8095472 2016 TT04.xlsm - Omitido debido a error: [Errno 13] Permission denied: 'S:/SEC/TTRTUCA/0- TT04 Master Plan/SPC TT04 2015/SPC CASING TT04/SPC L80 Casing TT04\\~$SPC CL8095472 2016 TT04.xlsm'
+2025-04-01 14:06:09,770 - INFO - registro agregado:  TIPO                     CAS
+OD                       5.5
+WT                     0.476
+Grado                    L80
+Clave                    364
+Proveedor              TAMSA
+Calentamiento L1       850.0
+Calentamiento L2       800.0
+Empape L2              920.0
+Vel. Pasaje              0.2
+Flujo                 1500.0
+Calentamiento L1.1     702.0
+Calentamiento L2.1     625.0
+Empape L1              702.0
+Empape L2.1            702.0
+TC [s]                 100.0
+Pc/h                    36.0
+Pc/Turno               288.0
+Check                     ok
+Vel. Pasaje              0.2
+Name: 6, dtype: object
+2025-04-01 14:06:10,127 - INFO - registro agregado:  TIPO                         CAS
+OD                           5.5
+WT                         0.304
+Grado                        L80
+Clave                        350
+Proveedor                  TAMSA
+Calentamiento L1           850.0
+Calentamiento L2           800.0
+Empape L2                  900.0
+Vel. Pasaje                 0.33
+Flujo                     1500.0
+Calentamiento L1.1         680.0
+Calentamiento L2.1         600.0
+Empape L1                  680.0
+Empape L2.1                680.0
+TC [s]                      66.0
+Pc/h                   54.545455
+Pc/Turno              436.363636
+Check                         ok
+Vel. Pasaje                 0.35
+Name: 5, dtype: object
+2025-04-01 14:06:10,254 - INFO - registro agregado:  TIPO                         CAS
+OD                           5.5
+WT                         0.304
+Grado                        L80
+Clave                        701
+Proveedor                SIDERCA
+Calentamiento L1           850.0
+Calentamiento L2           800.0
+Empape L2                  900.0
+Vel. Pasaje                 0.33
+Flujo                     1500.0
+Calentamiento L1.1         680.0
+Calentamiento L2.1         600.0
+Empape L1                  680.0
+Empape L2.1                680.0
+TC [s]                      66.0
+Pc/h                   54.545455
+Pc/Turno              436.363636
+Check                         ok
+Vel. Pasaje                 0.35
+Name: 0, dtype: object
+2025-04-01 14:06:10,663 - INFO - registro agregado:  TIPO                         CAS
+OD                           7.0
+WT                         0.317
+Grado                        L80
+Clave                        350
+Proveedor                  TAMSA
+Calentamiento L1           860.0
+Calentamiento L2           800.0
+Empape L2                  900.0
+Vel. Pasaje                 0.22
+Flujo                     1500.0
+Calentamiento L1.1         680.0
+Calentamiento L2.1         600.0
+Empape L1                  680.0
+Empape L2.1                600.0
+TC [s]                      95.0
+Pc/h                   37.894737
+Pc/Turno              303.157895
+Check                         ok
+Vel. Pasaje                 0.22
+Name: 14, dtype: object
+2025-04-01 14:08:21,866 - INFO - Archivo: SPC CL8070317 2019 TT04 - Calificacion -.xlsm - Registro omitido (sin coincidencia): Clave: 364, OD: 7.0, WT: 0.317, Tipo: CAS, Grado: L80
+2025-04-01 14:08:21,999 - INFO - registro agregado:  TIPO                         CAS
+OD                           7.0
+WT                         0.317
+Grado                        L80
+Clave                        701
+Proveedor                SIDERCA
+Calentamiento L1           860.0
+Calentamiento L2           800.0
+Empape L2                  900.0
+Vel. Pasaje                 0.22
+Flujo                     1500.0
+Calentamiento L1.1         680.0
+Calentamiento L2.1         600.0
+Empape L1                  680.0
+Empape L2.1                600.0
+TC [s]                      95.0
+Pc/h                   37.894737
+Pc/Turno              303.157895
+Check                         ok
+Vel. Pasaje                 0.22
+Name: 10, dtype: object
+2025-04-01 14:08:22,943 - INFO - Archivo: SPC CL8070362 SMLS  2021 TT04 - Pruebas - (1).xlsm - Omitido debido a error: File is not a zip file
+2025-04-01 14:08:23,611 - INFO - registro agregado:  TIPO                     CAS
+OD                       7.0
+WT                     0.362
+Grado                    L80
+Clave                    350
+Proveedor              TAMSA
+Calentamiento L1       860.0
+Calentamiento L2       800.0
+Empape L2              930.0
+Vel. Pasaje             0.21
+Flujo                 1580.0
+Calentamiento L1.1     672.0
+Calentamiento L2.1     600.0
+Empape L1              672.0
+Empape L2.1            672.0
+TC [s]                  95.0
+Pc/h                    36.0
+Pc/Turno               288.0
+Check                     ok
+Vel. Pasaje             22.0
+Name: 36, dtype: object
+2025-04-01 14:08:23,736 - INFO - registro agregado:  TIPO                      CAS
+OD                        7.0
+WT                      0.362
+Grado                     L80
+Clave                     701
+Proveedor             SIDERCA
+Calentamiento L1        860.0
+Calentamiento L2        800.0
+Empape L2               930.0
+Vel. Pasaje              0.21
+Flujo                  1580.0
+Calentamiento L1.1      672.0
+Calentamiento L2.1      600.0
+Empape L1               672.0
+Empape L2.1             672.0
+TC [s]                   95.0
+Pc/h                     36.0
+Pc/Turno                288.0
+Check                      ok
+Vel. Pasaje              22.0
+Name: 20, dtype: object
+2025-04-01 14:08:23,868 - INFO - registro agregado:  TIPO                      CAS
+OD                        7.0
+WT                      0.362
+Grado                     L80
+Clave                     704
+Proveedor             SIDERCA
+Calentamiento L1        860.0
+Calentamiento L2        800.0
+Empape L2               930.0
+Vel. Pasaje              0.23
+Flujo                  1580.0
+Calentamiento L1.1      672.0
+Calentamiento L2.1      600.0
+Empape L1               672.0
+Empape L2.1             672.0
+TC [s]                   95.0
+Pc/h                     40.0
+Pc/Turno                320.0
+Check                      ok
+Vel. Pasaje              22.0
+Name: 19, dtype: object
+2025-04-01 14:08:24,250 - INFO - registro agregado:  TIPO                     CAS
+OD                       7.0
+WT                     0.408
+Grado                    L80
+Clave                    350
+Proveedor              TAMSA
+Calentamiento L1       860.0
+Calentamiento L2       800.0
+Empape L2              890.0
+Vel. Pasaje             0.22
+Flujo                 1500.0
+Calentamiento L1.1     670.0
+Calentamiento L2.1     570.0
+Empape L1              670.0
+Empape L2.1            670.0
+TC [s]                  95.0
+Pc/h                    36.0
+Pc/Turno               288.0
+Check                     ok
+Vel. Pasaje             22.0
+Name: 47, dtype: object
+2025-04-01 14:08:24,378 - INFO - registro agregado:  TIPO                      CAS
+OD                        7.0
+WT                      0.408
+Grado                     L80
+Clave                     701
+Proveedor             SIDERCA
+Calentamiento L1        860.0
+Calentamiento L2        800.0
+Empape L2               890.0
+Vel. Pasaje              0.22
+Flujo                  1500.0
+Calentamiento L1.1      670.0
+Calentamiento L2.1      570.0
+Empape L1               670.0
+Empape L2.1             670.0
+TC [s]                   95.0
+Pc/h                     36.0
+Pc/Turno                288.0
+Check                      ok
+Vel. Pasaje              22.0
+Name: 37, dtype: object
+2025-04-01 14:08:25,563 - INFO - registro agregado:  TIPO                         CAS
+OD                         9.625
+WT                         0.395
+Grado                        L80
+Clave                        214
+Proveedor                DALMINE
+Calentamiento L1           870.0
+Calentamiento L2           800.0
+Empape L2                  890.0
+Vel. Pasaje                 0.18
+Flujo                     1600.0
+Calentamiento L1.1         700.0
+Calentamiento L2.1         600.0
+Empape L1                  700.0
+Empape L2.1                700.0
+TC [s]                     111.0
+Pc/h                   32.432432
+Pc/Turno              259.459459
+Check                         ok
+Vel. Pasaje                 0.18
+Name: 62, dtype: object
+2025-04-01 14:08:25,707 - INFO - registro agregado:  TIPO                            CAS
+OD                            9.625
+WT                            0.395
+Grado                           L80
+Clave                           350
+Proveedor             TAMSA/SIDERCA
+Calentamiento L1              870.0
+Calentamiento L2              800.0
+Empape L2                     890.0
+Vel. Pasaje                    0.18
+Flujo                        1600.0
+Calentamiento L1.1            700.0
+Calentamiento L2.1            600.0
+Empape L1                     700.0
+Empape L2.1                   700.0
+TC [s]                        111.0
+Pc/h                      38.709677
+Pc/Turno                 309.677419
+Check                            ok
+Vel. Pasaje                    0.18
+Name: 61, dtype: object
+2025-04-01 14:08:25,860 - INFO - registro agregado:  TIPO                         CAS
+OD                         9.625
+WT                         0.395
+Grado                        L80
+Clave                        356
+Proveedor                  TAMSA
+Calentamiento L1           870.0
+Calentamiento L2           800.0
+Empape L2                  890.0
+Vel. Pasaje                 0.23
+Flujo                     1600.0
+Calentamiento L1.1         700.0
+Calentamiento L2.1         600.0
+Empape L1                  700.0
+Empape L2.1                700.0
+TC [s]                     111.0
+Pc/h                   38.709677
+Pc/Turno              309.677419
+Check                         ok
+Vel. Pasaje                 0.18
+Name: 60, dtype: object
+2025-04-01 14:08:25,984 - INFO - registro agregado:  TIPO                         CAS
+OD                         9.625
+WT                         0.395
+Grado                        L80
+Clave                        710
+Proveedor                SIDERCA
+Calentamiento L1           870.0
+Calentamiento L2           800.0
+Empape L2                  890.0
+Vel. Pasaje                 0.18
+Flujo                     1600.0
+Calentamiento L1.1         700.0
+Calentamiento L2.1         600.0
+Empape L1                  700.0
+Empape L2.1                700.0
+TC [s]                     111.0
+Pc/h                   32.432432
+Pc/Turno              259.459459
+Check                         ok
+Vel. Pasaje                 0.18
+Name: 59, dtype: object
+2025-04-01 14:08:26,304 - INFO - registro agregado:  TIPO                         CAS
+OD                         9.625
+WT                         0.435
+Grado                        L80
+Clave                        350
+Proveedor                SIDERCA
+Calentamiento L1           880.0
+Calentamiento L2           800.0
+Empape L2                  930.0
+Vel. Pasaje                  0.2
+Flujo                     1550.0
+Calentamiento L1.1         672.0
+Calentamiento L2.1         600.0
+Empape L1                  672.0
+Empape L2.1                672.0
+TC [s]                     115.0
+Pc/h                   31.304348
+Pc/Turno              250.434783
+Check                         ok
+Vel. Pasaje                  0.2
+Name: 64, dtype: object
+2025-04-01 14:08:28,039 - INFO - Archivo: SPC CL8095435  2019 TT04  Prueba .xlsm - Registro omitido (sin coincidencia): Clave: 999.0, OD: 9.625, WT: 0.435, Tipo: CAS, Grado: L80
+2025-04-01 14:08:28,788 - INFO - registro agregado:  TIPO                      CAS
+OD                      9.625
+WT                      0.472
+Grado                     L80
+Clave                     214
+Proveedor             DALMINE
+Calentamiento L1        890.0
+Calentamiento L2        800.0
+Empape L2               900.0
+Vel. Pasaje              0.17
+Flujo                  1600.0
+Calentamiento L1.1      700.0
+Calentamiento L2.1      600.0
+Empape L1               700.0
+Empape L2.1             700.0
+TC [s]                  120.0
+Pc/h                     30.0
+Pc/Turno                240.0
+Check                      ok
+Vel. Pasaje              0.17
+Name: 71, dtype: object
+2025-04-01 14:08:28,917 - INFO - registro agregado:  TIPO                            CAS
+OD                            9.625
+WT                            0.472
+Grado                           L80
+Clave                           350
+Proveedor             TAMSA/SIDERCA
+Calentamiento L1              890.0
+Calentamiento L2              800.0
+Empape L2                     900.0
+Vel. Pasaje                    0.17
+Flujo                        1600.0
+Calentamiento L1.1            700.0
+Calentamiento L2.1            600.0
+Empape L1                     700.0
+Empape L2.1                   700.0
+TC [s]                        120.0
+Pc/h                           30.0
+Pc/Turno                      240.0
+Check                            ok
+Vel. Pasaje                    0.17
+Name: 70, dtype: object
+2025-04-01 14:08:29,042 - INFO - registro agregado:  TIPO                         CAS
+OD                         9.625
+WT                         0.472
+Grado                        L80
+Clave                        356
+Proveedor                  TAMSA
+Calentamiento L1           890.0
+Calentamiento L2           800.0
+Empape L2                  900.0
+Vel. Pasaje                 0.17
+Flujo                     1600.0
+Calentamiento L1.1         700.0
+Calentamiento L2.1         600.0
+Empape L1                  700.0
+Empape L2.1                700.0
+TC [s]                     120.0
+Pc/h                   30.508475
+Pc/Turno              244.067797
+Check                         ok
+Vel. Pasaje                 0.17
+Name: 69, dtype: object
+2025-04-01 14:08:29,507 - INFO - registro agregado:  TIPO                            CAS
+OD                            9.625
+WT                            0.545
+Grado                           L80
+Clave                           350
+Proveedor             TAMSA/SIDERCA
+Calentamiento L1              880.0
+Calentamiento L2              800.0
+Empape L2                     910.0
+Vel. Pasaje                    0.16
+Flujo                        1600.0
+Calentamiento L1.1            684.0
+Calentamiento L2.1            590.0
+Empape L1                     684.0
+Empape L2.1                   684.0
+TC [s]                        120.0
+Pc/h                           30.0
+Pc/Turno                      240.0
+Check                            ok
+Vel. Pasaje                    15.0
+Name: 80, dtype: object
+2025-04-01 14:08:30,831 - INFO - Archivo: ~$SPC CL8095472 2016 TT04.xlsm - Omitido debido a error: [Errno 13] Permission denied: 'S:/SEC/TTRTUCA/0- TT04 Master Plan/SPC TT04 2015/SPC CASING TT04/SPC L80 Casing TT04\\~$SPC CL8095472 2016 TT04.xlsm'
+2025-04-01 15:50:20,368 - INFO - registro agregado:  TIPO                     CAS
+OD                       5.5
+WT                     0.476
+Grado                    L80
+Clave                    364
+Proveedor              TAMSA
+Calentamiento L1       850.0
+Calentamiento L2       800.0
+Empape L2              920.0
+Vel. Pasaje              0.2
+Flujo                 1500.0
+Calentamiento L1.1     702.0
+Calentamiento L2.1     625.0
+Empape L1              702.0
+Empape L2.1            702.0
+TC [s]                 100.0
+Pc/h                    36.0
+Pc/Turno               288.0
+Check                     ok
+Vel. Pasaje              0.2
+Name: 6, dtype: object
+2025-04-01 15:50:21,346 - INFO - registro agregado:  TIPO                         CAS
+OD                           5.5
+WT                         0.304
+Grado                        L80
+Clave                        350
+Proveedor                  TAMSA
+Calentamiento L1           850.0
+Calentamiento L2           800.0
+Empape L2                  900.0
+Vel. Pasaje                 0.33
+Flujo                     1500.0
+Calentamiento L1.1         680.0
+Calentamiento L2.1         600.0
+Empape L1                  680.0
+Empape L2.1                680.0
+TC [s]                      66.0
+Pc/h                   54.545455
+Pc/Turno              436.363636
+Check                         ok
+Vel. Pasaje                 0.35
+Name: 5, dtype: object
+2025-04-01 15:50:21,491 - INFO - registro agregado:  TIPO                         CAS
+OD                           5.5
+WT                         0.304
+Grado                        L80
+Clave                        701
+Proveedor                SIDERCA
+Calentamiento L1           850.0
+Calentamiento L2           800.0
+Empape L2                  900.0
+Vel. Pasaje                 0.33
+Flujo                     1500.0
+Calentamiento L1.1         680.0
+Calentamiento L2.1         600.0
+Empape L1                  680.0
+Empape L2.1                680.0
+TC [s]                      66.0
+Pc/h                   54.545455
+Pc/Turno              436.363636
+Check                         ok
+Vel. Pasaje                 0.35
+Name: 0, dtype: object
+2025-04-01 15:50:21,901 - INFO - registro agregado:  TIPO                         CAS
+OD                           7.0
+WT                         0.317
+Grado                        L80
+Clave                        350
+Proveedor                  TAMSA
+Calentamiento L1           860.0
+Calentamiento L2           800.0
+Empape L2                  900.0
+Vel. Pasaje                 0.22
+Flujo                     1500.0
+Calentamiento L1.1         680.0
+Calentamiento L2.1         600.0
+Empape L1                  680.0
+Empape L2.1                600.0
+TC [s]                      95.0
+Pc/h                   37.894737
+Pc/Turno              303.157895
+Check                         ok
+Vel. Pasaje                 0.22
+Name: 14, dtype: object
+2025-04-01 15:59:49,503 - INFO - registro agregado:  TIPO                     CAS
+OD                       5.5
+WT                     0.476
+Grado                    L80
+Clave                    364
+Proveedor              TAMSA
+Calentamiento L1       850.0
+Calentamiento L2       800.0
+Empape L2              920.0
+Vel. Pasaje              0.2
+Flujo                 1500.0
+Calentamiento L1.1     702.0
+Calentamiento L2.1     625.0
+Empape L1              702.0
+Empape L2.1            702.0
+TC [s]                 100.0
+Pc/h                    36.0
+Pc/Turno               288.0
+Check                     ok
+Vel. Pasaje              0.2
+Name: 6, dtype: object
+2025-04-01 15:59:49,821 - INFO - registro agregado:  TIPO                         CAS
+OD                           5.5
+WT                         0.304
+Grado                        L80
+Clave                        350
+Proveedor                  TAMSA
+Calentamiento L1           850.0
+Calentamiento L2           800.0
+Empape L2                  900.0
+Vel. Pasaje                 0.33
+Flujo                     1500.0
+Calentamiento L1.1         680.0
+Calentamiento L2.1         600.0
+Empape L1                  680.0
+Empape L2.1                680.0
+TC [s]                      66.0
+Pc/h                   54.545455
+Pc/Turno              436.363636
+Check                         ok
+Vel. Pasaje                 0.35
+Name: 5, dtype: object
+2025-04-01 15:59:49,948 - INFO - registro agregado:  TIPO                         CAS
+OD                           5.5
+WT                         0.304
+Grado                        L80
+Clave                        701
+Proveedor                SIDERCA
+Calentamiento L1           850.0
+Calentamiento L2           800.0
+Empape L2                  900.0
+Vel. Pasaje                 0.33
+Flujo                     1500.0
+Calentamiento L1.1         680.0
+Calentamiento L2.1         600.0
+Empape L1                  680.0
+Empape L2.1                680.0
+TC [s]                      66.0
+Pc/h                   54.545455
+Pc/Turno              436.363636
+Check                         ok
+Vel. Pasaje                 0.35
+Name: 0, dtype: object
+2025-04-01 15:59:50,364 - INFO - registro agregado:  TIPO                         CAS
+OD                           7.0
+WT                         0.317
+Grado                        L80
+Clave                        350
+Proveedor                  TAMSA
+Calentamiento L1           860.0
+Calentamiento L2           800.0
+Empape L2                  900.0
+Vel. Pasaje                 0.22
+Flujo                     1500.0
+Calentamiento L1.1         680.0
+Calentamiento L2.1         600.0
+Empape L1                  680.0
+Empape L2.1                600.0
+TC [s]                      95.0
+Pc/h                   37.894737
+Pc/Turno              303.157895
+Check                         ok
+Vel. Pasaje                 0.22
+Name: 14, dtype: object
+2025-04-01 16:00:55,529 - INFO - registro agregado:  TIPO                     CAS
+OD                       5.5
+WT                     0.476
+Grado                    L80
+Clave                    364
+Proveedor              TAMSA
+Calentamiento L1       850.0
+Calentamiento L2       800.0
+Empape L2              920.0
+Vel. Pasaje              0.2
+Flujo                 1500.0
+Calentamiento L1.1     702.0
+Calentamiento L2.1     625.0
+Empape L1              702.0
+Empape L2.1            702.0
+TC [s]                 100.0
+Pc/h                    36.0
+Pc/Turno               288.0
+Check                     ok
+Vel. Pasaje              0.2
+Name: 6, dtype: object
+2025-04-01 16:00:55,835 - INFO - registro agregado:  TIPO                         CAS
+OD                           5.5
+WT                         0.304
+Grado                        L80
+Clave                        350
+Proveedor                  TAMSA
+Calentamiento L1           850.0
+Calentamiento L2           800.0
+Empape L2                  900.0
+Vel. Pasaje                 0.33
+Flujo                     1500.0
+Calentamiento L1.1         680.0
+Calentamiento L2.1         600.0
+Empape L1                  680.0
+Empape L2.1                680.0
+TC [s]                      66.0
+Pc/h                   54.545455
+Pc/Turno              436.363636
+Check                         ok
+Vel. Pasaje                 0.35
+Name: 5, dtype: object
+2025-04-01 16:00:56,183 - INFO - registro agregado:  TIPO                         CAS
+OD                           5.5
+WT                         0.304
+Grado                        L80
+Clave                        701
+Proveedor                SIDERCA
+Calentamiento L1           850.0
+Calentamiento L2           800.0
+Empape L2                  900.0
+Vel. Pasaje                 0.33
+Flujo                     1500.0
+Calentamiento L1.1         680.0
+Calentamiento L2.1         600.0
+Empape L1                  680.0
+Empape L2.1                680.0
+TC [s]                      66.0
+Pc/h                   54.545455
+Pc/Turno              436.363636
+Check                         ok
+Vel. Pasaje                 0.35
+Name: 0, dtype: object
+2025-04-01 16:00:56,838 - INFO - registro agregado:  TIPO                         CAS
+OD                           7.0
+WT                         0.317
+Grado                        L80
+Clave                        350
+Proveedor                  TAMSA
+Calentamiento L1           860.0
+Calentamiento L2           800.0
+Empape L2                  900.0
+Vel. Pasaje                 0.22
+Flujo                     1500.0
+Calentamiento L1.1         680.0
+Calentamiento L2.1         600.0
+Empape L1                  680.0
+Empape L2.1                600.0
+TC [s]                      95.0
+Pc/h                   37.894737
+Pc/Turno              303.157895
+Check                         ok
+Vel. Pasaje                 0.22
+Name: 14, dtype: object
+2025-04-02 07:38:41,752 - INFO - Archivo: SPC 95472TN 95HC 2015 TT04.xlsm - Registro omitido (sin coincidencia): Clave: 364.0, OD: 9.625, WT: 0.472, Tipo: CAS, Grado: TN95HC
+2025-04-03 11:38:52,638 - INFO - registro agregado:  TIPO                         CAS
+OD                           5.5
+WT                         0.304
+Grado                        N80
+Clave                        350
+Proveedor                  TAMSA
+Calentamiento L1           870.0
+Calentamiento L2           800.0
+Empape L2                  940.0
+Vel. Pasaje                 0.38
+Flujo                     1500.0
+Calentamiento L1.1         655.0
+Calentamiento L2.1         560.0
+Empape L1                  655.0
+Empape L2.1                655.0
+TC [s]                      58.0
+Pc/h                   62.068966
+Pc/Turno              496.551724
+Check                         ok
+Vel. Pasaje                 0.32
+Name: 1, dtype: object
+2025-04-03 11:38:52,861 - INFO - registro agregado:  TIPO                         CAS
+OD                           5.5
+WT                         0.304
+Grado                        N80
+Clave                        701
+Proveedor                SIDERCA
+Calentamiento L1           870.0
+Calentamiento L2           800.0
+Empape L2                  940.0
+Vel. Pasaje                 0.38
+Flujo                     1500.0
+Calentamiento L1.1         655.0
+Calentamiento L2.1         560.0
+Empape L1                  655.0
+Empape L2.1                655.0
+TC [s]                      58.0
+Pc/h                   62.068966
+Pc/Turno              496.551724
+Check                         ok
+Vel. Pasaje                 0.32
+Name: 2, dtype: object
+2025-04-03 11:43:37,801 - INFO - registro agregado:  TIPO                        CAS
+OD                          5.5
+WT                        0.304
+Grado                 P110 ICCY
+Clave                       350
+Proveedor                 TAMSA
+Calentamiento L1          860.0
+Calentamiento L2          800.0
+Empape L2                 900.0
+Vel. Pasaje                0.31
+Flujo                    1500.0
+Calentamiento L1.1        490.0
+Calentamiento L2.1        390.0
+Empape L1                 490.0
+Empape L2.1               490.0
+TC [s]                    100.0
+Pc/h                       36.0
+Pc/Turno                  288.0
+Check                        ok
+Vel. Pasaje                0.31
+Name: 4, dtype: object
+2025-04-03 11:46:22,617 - INFO - registro agregado:  TIPO                        CAS
+OD                          5.5
+WT                        0.304
+Grado                 P110 ICCY
+Clave                       350
+Proveedor                 TAMSA
+Calentamiento L1          860.0
+Calentamiento L2          800.0
+Empape L2                 900.0
+Vel. Pasaje                0.31
+Flujo                    1500.0
+Calentamiento L1.1        490.0
+Calentamiento L2.1        390.0
+Empape L1                 490.0
+Empape L2.1               490.0
+TC [s]                    100.0
+Pc/h                       36.0
+Pc/Turno                  288.0
+Check                        ok
+Vel. Pasaje                0.31
+Name: 4, dtype: object
+2025-04-03 11:47:32,593 - INFO - registro agregado:  TIPO                        CAS
+OD                          5.5
+WT                        0.304
+Grado                 P110 ICCY
+Clave                       350
+Proveedor                 TAMSA
+Calentamiento L1          860.0
+Calentamiento L2          800.0
+Empape L2                 900.0
+Vel. Pasaje                0.31
+Flujo                    1500.0
+Calentamiento L1.1        490.0
+Calentamiento L2.1        390.0
+Empape L1                 490.0
+Empape L2.1               490.0
+TC [s]                    100.0
+Pc/h                       36.0
+Pc/Turno                  288.0
+Check                        ok
+Vel. Pasaje                0.31
+Name: 4, dtype: object
+2025-04-03 12:25:11,702 - INFO - registro agregado:  TIPO                        CAS
+OD                          5.5
+WT                        0.476
+Grado                 P110 ICCY
+Clave                       364
+Proveedor                 TAMSA
+Calentamiento L1          850.0
+Calentamiento L2          800.0
+Empape L2                 920.0
+Vel. Pasaje                 0.2
+Flujo                    1500.0
+Calentamiento L1.1        555.0
+Calentamiento L2.1        450.0
+Empape L1                 555.0
+Empape L2.1               555.0
+TC [s]                    120.0
+Pc/h                       30.0
+Pc/Turno                  240.0
+Check                        ok
+Vel. Pasaje                 0.2
+Name: 7, dtype: object
+2025-04-03 12:29:43,621 - INFO - registro agregado:  TIPO                         CAS
+OD                           7.0
+WT                         0.317
+Grado                        N80
+Clave                        350
+Proveedor                  TAMSA
+Calentamiento L1           860.0
+Calentamiento L2           800.0
+Empape L2                  930.0
+Vel. Pasaje                 0.28
+Flujo                     1500.0
+Calentamiento L1.1         650.0
+Calentamiento L2.1         560.0
+Empape L1                  650.0
+Empape L2.1                650.0
+TC [s]                      69.0
+Pc/h                   52.173913
+Pc/Turno              417.391304
+Check                         ok
+Vel. Pasaje                 0.26
+Name: 13, dtype: object
+2025-04-03 12:29:43,729 - INFO - registro agregado:  TIPO                         CAS
+OD                           7.0
+WT                         0.317
+Grado                        N80
+Clave                        701
+Proveedor                SIDERCA
+Calentamiento L1           860.0
+Calentamiento L2           800.0
+Empape L2                  930.0
+Vel. Pasaje                 0.28
+Flujo                     1500.0
+Calentamiento L1.1         650.0
+Calentamiento L2.1         560.0
+Empape L1                  650.0
+Empape L2.1                650.0
+TC [s]                      69.0
+Pc/h                   52.173913
+Pc/Turno              417.391304
+Check                         ok
+Vel. Pasaje                 0.26
+Name: 11, dtype: object
+2025-04-03 12:29:43,898 - INFO - registro agregado:  TIPO                     CAS
+OD                       7.0
+WT                     0.317
+Grado                    N80
+Clave                    704
+Proveedor              TAMSA
+Calentamiento L1       860.0
+Calentamiento L2       800.0
+Empape L2              930.0
+Vel. Pasaje             0.28
+Flujo                 1500.0
+Calentamiento L1.1     650.0
+Calentamiento L2.1     560.0
+Empape L1              650.0
+Empape L2.1            650.0
+TC [s]                  69.0
+Pc/h                   56.25
+Pc/Turno               450.0
+Check                     ok
+Vel. Pasaje             0.26
+Name: 12, dtype: object
+2025-04-03 12:31:32,827 - INFO - Archivo: SPC CN8070317 2022 TT04 - .xlsm - Registro omitido (sin coincidencia): Clave: 999.0, OD: 7.0, WT: 0.317, Tipo: CAS, Grado: N80
+2025-04-03 12:36:49,695 - INFO - registro agregado:  TIPO                         CAS
+OD                           7.0
+WT                         0.317
+Grado                  P110 ICCY
+Clave                        356
+Proveedor                  TAMSA
+Calentamiento L1           870.0
+Calentamiento L2           800.0
+Empape L2                  920.0
+Vel. Pasaje                  0.2
+Flujo                     1500.0
+Calentamiento L1.1         490.0
+Calentamiento L2.1         390.0
+Empape L1                  490.0
+Empape L2.1                490.0
+TC [s]                     116.0
+Pc/h                   40.909091
+Pc/Turno              327.272727
+Check                         ok
+Vel. Pasaje                  0.2
+Name: 16, dtype: object
+2025-04-03 12:36:49,811 - INFO - registro agregado:  TIPO                         CAS
+OD                           7.0
+WT                         0.317
+Grado                  P110 ICCY
+Clave                        364
+Proveedor                  TAMSA
+Calentamiento L1           870.0
+Calentamiento L2           800.0
+Empape L2                  920.0
+Vel. Pasaje                 0.23
+Flujo                     1500.0
+Calentamiento L1.1         490.0
+Calentamiento L2.1         390.0
+Empape L1                  490.0
+Empape L2.1                490.0
+TC [s]                     116.0
+Pc/h                   37.894737
+Pc/Turno              303.157895
+Check                         ok
+Vel. Pasaje                  0.2
+Name: 15, dtype: object
+2025-04-03 12:36:49,928 - INFO - registro agregado:  TIPO                         CAS
+OD                           7.0
+WT                         0.317
+Grado                  P110 ICCY
+Clave                        701
+Proveedor                SIDERCA
+Calentamiento L1           870.0
+Calentamiento L2           800.0
+Empape L2                  920.0
+Vel. Pasaje                  0.2
+Flujo                     1500.0
+Calentamiento L1.1         490.0
+Calentamiento L2.1         390.0
+Empape L1                  490.0
+Empape L2.1                490.0
+TC [s]                     116.0
+Pc/h                   40.909091
+Pc/Turno              327.272727
+Check                         ok
+Vel. Pasaje                  0.2
+Name: 17, dtype: object
+2025-04-03 12:36:50,049 - INFO - registro agregado:  TIPO                         CAS
+OD                           7.0
+WT                         0.317
+Grado                  P110 ICCY
+Clave                        704
+Proveedor                  TAMSA
+Calentamiento L1           870.0
+Calentamiento L2           800.0
+Empape L2                  920.0
+Vel. Pasaje                 0.25
+Flujo                     1500.0
+Calentamiento L1.1         490.0
+Calentamiento L2.1         390.0
+Empape L1                  490.0
+Empape L2.1                490.0
+TC [s]                     116.0
+Pc/h                   43.373494
+Pc/Turno              346.987952
+Check                         ok
+Vel. Pasaje                  0.2
+Name: 18, dtype: object
+2025-04-03 12:39:02,020 - INFO - registro agregado:  TIPO                     CAS
+OD                       7.0
+WT                     0.362
+Grado                    N80
+Clave                    350
+Proveedor              TAMSA
+Calentamiento L1       860.0
+Calentamiento L2       800.0
+Empape L2              930.0
+Vel. Pasaje             0.26
+Flujo                 1580.0
+Calentamiento L1.1     650.0
+Calentamiento L2.1     560.0
+Empape L1              650.0
+Empape L2.1            650.0
+TC [s]                  72.0
+Pc/h                    50.0
+Pc/Turno               400.0
+Check                     ok
+Vel. Pasaje             0.26
+Name: 21, dtype: object
+2025-04-03 12:39:02,128 - INFO - registro agregado:  TIPO                     CAS
+OD                       7.0
+WT                     0.362
+Grado                    N80
+Clave                    360
+Proveedor              TAMSA
+Calentamiento L1       860.0
+Calentamiento L2       800.0
+Empape L2              930.0
+Vel. Pasaje             0.26
+Flujo                 1580.0
+Calentamiento L1.1     650.0
+Calentamiento L2.1     560.0
+Empape L1              650.0
+Empape L2.1            650.0
+TC [s]                  72.0
+Pc/h                    50.0
+Pc/Turno               400.0
+Check                     ok
+Vel. Pasaje             0.26
+Name: 22, dtype: object
+2025-04-03 12:39:02,243 - INFO - registro agregado:  TIPO                      CAS
+OD                        7.0
+WT                      0.362
+Grado                     N80
+Clave                     431
+Proveedor             DALMINE
+Calentamiento L1        860.0
+Calentamiento L2        800.0
+Empape L2               930.0
+Vel. Pasaje              0.25
+Flujo                  1580.0
+Calentamiento L1.1      650.0
+Calentamiento L2.1      560.0
+Empape L1               650.0
+Empape L2.1             650.0
+TC [s]                   72.0
+Pc/h                     48.0
+Pc/Turno                384.0
+Check                      ok
+Vel. Pasaje              0.26
+Name: 23, dtype: object
+2025-04-03 12:39:02,355 - INFO - registro agregado:  TIPO                      CAS
+OD                        7.0
+WT                      0.362
+Grado                     N80
+Clave                     701
+Proveedor             SIDERCA
+Calentamiento L1        860.0
+Calentamiento L2        800.0
+Empape L2               930.0
+Vel. Pasaje              0.26
+Flujo                  1580.0
+Calentamiento L1.1      650.0
+Calentamiento L2.1      560.0
+Empape L1               650.0
+Empape L2.1             650.0
+TC [s]                   72.0
+Pc/h                     50.0
+Pc/Turno                400.0
+Check                      ok
+Vel. Pasaje              0.26
+Name: 24, dtype: object
+2025-04-03 12:39:07,782 - INFO - Archivo: SPC CN8070362 2015 TT04.xlsm - Registro omitido (sin coincidencia): Clave: 999, OD: 7.0, WT: 0.362, Tipo: CAS, Grado: N80
+2025-04-03 12:39:58,178 - INFO - registro agregado:  TIPO                         CAS
+OD                           7.0
+WT                         0.362
+Grado                       P110
+Clave                        350
+Proveedor                  TAMSA
+Calentamiento L1           880.0
+Calentamiento L2           800.0
+Empape L2                  940.0
+Vel. Pasaje                 0.26
+Flujo                     1500.0
+Calentamiento L1.1         525.0
+Calentamiento L2.1         430.0
+Empape L1                  525.0
+Empape L2.1                525.0
+TC [s]                      77.0
+Pc/h                   46.753247
+Pc/Turno              374.025974
+Check                         ok
+Vel. Pasaje                 0.24
+Name: 26, dtype: object
+2025-04-03 12:39:58,289 - INFO - registro agregado:  TIPO                         CAS
+OD                           7.0
+WT                         0.362
+Grado                       P110
+Clave                        360
+Proveedor                  TAMSA
+Calentamiento L1           880.0
+Calentamiento L2           800.0
+Empape L2                  940.0
+Vel. Pasaje                 0.26
+Flujo                     1500.0
+Calentamiento L1.1         525.0
+Calentamiento L2.1         430.0
+Empape L1                  525.0
+Empape L2.1                525.0
+TC [s]                      77.0
+Pc/h                   43.373494
+Pc/Turno              346.987952
+Check                         ok
+Vel. Pasaje                 0.24
+Name: 28, dtype: object
+2025-04-03 12:39:58,397 - INFO - registro agregado:  TIPO                         CAS
+OD                           7.0
+WT                         0.362
+Grado                       P110
+Clave                        431
+Proveedor                DALMINE
+Calentamiento L1           880.0
+Calentamiento L2           800.0
+Empape L2                  940.0
+Vel. Pasaje                 0.26
+Flujo                     1500.0
+Calentamiento L1.1         525.0
+Calentamiento L2.1         430.0
+Empape L1                  525.0
+Empape L2.1                525.0
+TC [s]                      77.0
+Pc/h                   46.753247
+Pc/Turno              374.025974
+Check                         ok
+Vel. Pasaje                 0.24
+Name: 29, dtype: object
+2025-04-03 12:39:58,505 - INFO - registro agregado:  TIPO                         CAS
+OD                           7.0
+WT                         0.362
+Grado                       P110
+Clave                        701
+Proveedor                SIDERCA
+Calentamiento L1           880.0
+Calentamiento L2           800.0
+Empape L2                  940.0
+Vel. Pasaje                 0.26
+Flujo                     1500.0
+Calentamiento L1.1         525.0
+Calentamiento L2.1         430.0
+Empape L1                  525.0
+Empape L2.1                525.0
+TC [s]                      77.0
+Pc/h                   46.753247
+Pc/Turno              374.025974
+Check                         ok
+Vel. Pasaje                 0.24
+Name: 27, dtype: object
+2025-04-03 12:40:59,507 - INFO - registro agregado:  TIPO                         CAS
+OD                           7.0
+WT                         0.362
+Grado                       P110
+Clave                        350
+Proveedor                  TAMSA
+Calentamiento L1           880.0
+Calentamiento L2           800.0
+Empape L2                  940.0
+Vel. Pasaje                 0.26
+Flujo                     1500.0
+Calentamiento L1.1         525.0
+Calentamiento L2.1         430.0
+Empape L1                  525.0
+Empape L2.1                525.0
+TC [s]                      77.0
+Pc/h                   46.753247
+Pc/Turno              374.025974
+Check                         ok
+Vel. Pasaje                 0.24
+Name: 26, dtype: object
+2025-04-03 12:40:59,678 - INFO - registro agregado:  TIPO                         CAS
+OD                           7.0
+WT                         0.362
+Grado                       P110
+Clave                        360
+Proveedor                  TAMSA
+Calentamiento L1           880.0
+Calentamiento L2           800.0
+Empape L2                  940.0
+Vel. Pasaje                 0.26
+Flujo                     1500.0
+Calentamiento L1.1         525.0
+Calentamiento L2.1         430.0
+Empape L1                  525.0
+Empape L2.1                525.0
+TC [s]                      77.0
+Pc/h                   43.373494
+Pc/Turno              346.987952
+Check                         ok
+Vel. Pasaje                 0.24
+Name: 28, dtype: object
+2025-04-03 12:40:59,787 - INFO - registro agregado:  TIPO                         CAS
+OD                           7.0
+WT                         0.362
+Grado                       P110
+Clave                        431
+Proveedor                DALMINE
+Calentamiento L1           880.0
+Calentamiento L2           800.0
+Empape L2                  940.0
+Vel. Pasaje                 0.26
+Flujo                     1500.0
+Calentamiento L1.1         525.0
+Calentamiento L2.1         430.0
+Empape L1                  525.0
+Empape L2.1                525.0
+TC [s]                      77.0
+Pc/h                   46.753247
+Pc/Turno              374.025974
+Check                         ok
+Vel. Pasaje                 0.24
+Name: 29, dtype: object
+2025-04-03 12:40:59,904 - INFO - registro agregado:  TIPO                         CAS
+OD                           7.0
+WT                         0.362
+Grado                       P110
+Clave                        701
+Proveedor                SIDERCA
+Calentamiento L1           880.0
+Calentamiento L2           800.0
+Empape L2                  940.0
+Vel. Pasaje                 0.26
+Flujo                     1500.0
+Calentamiento L1.1         525.0
+Calentamiento L2.1         430.0
+Empape L1                  525.0
+Empape L2.1                525.0
+TC [s]                      77.0
+Pc/h                   46.753247
+Pc/Turno              374.025974
+Check                         ok
+Vel. Pasaje                 0.24
+Name: 27, dtype: object
+2025-04-03 12:47:13,095 - INFO - registro agregado:  TIPO                     CAS
+OD                       7.0
+WT                     0.408
+Grado                    N80
+Clave                    350
+Proveedor              TAMSA
+Calentamiento L1       870.0
+Calentamiento L2       800.0
+Empape L2              910.0
+Vel. Pasaje             0.24
+Flujo                 1500.0
+Calentamiento L1.1     645.0
+Calentamiento L2.1     560.0
+Empape L1              645.0
+Empape L2.1            645.0
+TC [s]                  80.0
+Pc/h                    45.0
+Pc/Turno               360.0
+Check                     ok
+Vel. Pasaje             0.24
+Name: 38, dtype: object
+2025-04-03 12:47:13,202 - INFO - registro agregado:  TIPO                      CAS
+OD                        7.0
+WT                      0.408
+Grado                     N80
+Clave                     701
+Proveedor             SIDERCA
+Calentamiento L1        870.0
+Calentamiento L2        800.0
+Empape L2               910.0
+Vel. Pasaje              0.24
+Flujo                  1500.0
+Calentamiento L1.1      645.0
+Calentamiento L2.1      560.0
+Empape L1               645.0
+Empape L2.1             645.0
+TC [s]                   80.0
+Pc/h                     45.0
+Pc/Turno                360.0
+Check                      ok
+Vel. Pasaje              0.24
+Name: 39, dtype: object
+2025-04-03 12:47:14,875 - INFO - Archivo: SPC CN8070408 2015 TT04.xlsm - Registro omitido (sin coincidencia): Clave: 999.0, OD: 7.0, WT: 0.408, Tipo: CAS, Grado: N80
+2025-04-03 12:48:05,424 - INFO - Archivo: SPC CN8070453 SMLS  2024 TT04 - Calificacion -.xlsm - Registro omitido (sin coincidencia): Clave: 350, OD: 7.0, WT: 0.453, Tipo: CAS, Grado: N80
+2025-04-03 12:48:05,536 - INFO - registro agregado:  TIPO                         CAS
+OD                           7.0
+WT                         0.453
+Grado                        N80
+Clave                        701
+Proveedor                SIDERCA
+Calentamiento L1           860.0
+Calentamiento L2           800.0
+Empape L2                  930.0
+Vel. Pasaje                 0.21
+Flujo                     1600.0
+Calentamiento L1.1         650.0
+Calentamiento L2.1         560.0
+Empape L1                  650.0
+Empape L2.1                650.0
+TC [s]                      85.0
+Pc/h                   42.352941
+Pc/Turno              338.823529
+Check                         ok
+Vel. Pasaje                 19.0
+Name: 40, dtype: object
