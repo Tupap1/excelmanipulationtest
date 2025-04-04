@@ -59,3 +59,15 @@
 -Values:  Clave: 999, OD: 7.0, WT: 0.362, Tipo: CAS, Grado: N80 ---- S:/SEC/TTRTUCA/0- TT04 Master Plan/SPC TT04 2015/SPC CASING TT04/SPC N80Q Casing TT04 
 -Values:  Clave: 999.0, OD: 7.0, WT: 0.408, Tipo: CAS, Grado: N80 ---- S:/SEC/TTRTUCA/0- TT04 Master Plan/SPC TT04 2015/SPC CASING TT04/SPC N80Q Casing TT04 
 -Values:  Clave: 350, OD: 7.0, WT: 0.453, Tipo: CAS, Grado: N80 ---- S:/SEC/TTRTUCA/0- TT04 Master Plan/SPC TT04 2015/SPC CASING TT04/SPC N80Q Casing TT04 
+-Values:  Clave: 356, OD: 7.0, WT: 0.408, Tipo: CAS, Grado: L80 ICY ---- S:/SEC/TTRTUCA/0- TT04 Master Plan/SPC TT04 2015/SPC CASING TT04/SPC L80 ICY Casing TT04 
+-Values:  Clave: 360, OD: 7.0, WT: 0.408, Tipo: CAS, Grado: L80 ICY ---- S:/SEC/TTRTUCA/0- TT04 Master Plan/SPC TT04 2015/SPC CASING TT04/SPC L80 ICY Casing TT04 
+-Values:  Clave: 999, OD: 9.625, WT: 0.472, Tipo: CAS, Grado: N80 ---- S:/SEC/TTRTUCA/0- TT04 Master Plan/SPC TT04 2015/SPC CASING TT04/SPC N80Q Casing TT04 
+-Values:  Clave: 999, OD: 9.625, WT: 0.472, Tipo: CAS, Grado: P110 ---- S:/SEC/TTRTUCA/0- TT04 Master Plan/SPC TT04 2015/SPC CASING TT04/SPC P110 Casing TT04 
+-Values:  Clave: 999, OD: 9.625, WT: 0.545, Tipo: CAS, Grado: TN110 HC ---- S:/SEC/TTRTUCA/0- TT04 Master Plan/SPC TT04 2015/SPC CASING TT04/SPC TN 110 TT04 
+-Values:  Clave: 364.0, OD: 9.625, WT: 0.545, Tipo: CAS, Grado: N80 ---- S:/SEC/TTRTUCA/0- TT04 Master Plan/SPC TT04 2015/SPC CASING TT04/SPC N80Q Casing TT04 
+-Values:  Clave: 939.0, OD: 9.625, WT: 0.545, Tipo: CAS, Grado: N80 ---- S:/SEC/TTRTUCA/0- TT04 Master Plan/SPC TT04 2015/SPC CASING TT04/SPC N80Q Casing TT04 
+-Values:  Clave: 364.0, OD: 9.625, WT: 0.545, Tipo: CAS, Grado: N80 ---- S:/SEC/TTRTUCA/0- TT04 Master Plan/SPC TT04 2015/SPC CASING TT04/SPC N80Q Casing TT04 
+-Values:  Clave: 939.0, OD: 9.625, WT: 0.545, Tipo: CAS, Grado: N80 ---- S:/SEC/TTRTUCA/0- TT04 Master Plan/SPC TT04 2015/SPC CASING TT04/SPC N80Q Casing TT04 
+-Values:  Clave: 999, OD: 9.625, WT: 0.472, Tipo: CAS, Grado: N80 ---- S:/SEC/TTRTUCA/0- TT04 Master Plan/SPC TT04 2015/SPC CASING TT04/SPC N80Q Casing TT04 
+-Values:  Clave: 302, OD: 7.0, WT: 0.408, Tipo: CAS, Grado: N80 ---- S:/SEC/TTRTUCA/0- TT04 Master Plan/SPC TT04 2015/SPC CASING TT04/SPC N80Q Casing TT04 
+-Values:  Clave: 776.0, OD: 3.386, WT: 0.591, Tipo: TPC, Grado: L80 CR1 ---- S:/SEC/TTRTUCA/0- TT04 Master Plan/SPC TT04 2015/SPC TPC TT04/SPC TPC L80 

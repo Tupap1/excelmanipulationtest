@@ -112,12 +112,12 @@ def verify_Data(informacion):
         
                     faltan = 0
 
-                    condicion_wt = (lookUpValues['WT'] >=limiteAbajo(wT, 0.05) )  &  (lookUpValues['WT'] <=limiteArriba(wT, 0.05) )
+                    condicion_wt = (lookUpValues['WT'] >=limiteAbajo(wT, 0.02) )  &  (lookUpValues['WT'] <=limiteArriba(wT, 0.02) )
                     if not any(condicion_wt):
                        items.append('WT') 
                        faltan = faltan + 1
 
-                    condicion_od = (lookUpValues['OD'] >=limiteAbajo(oD, 0.5) ) & (lookUpValues['OD'] <=limiteArriba(oD, 0.5) )
+                    condicion_od = (lookUpValues['OD'] >=limiteAbajo(oD, 0.05) ) & (lookUpValues['OD'] <=limiteArriba(oD, 0.05) )
                     if not any(condicion_od):
                         items.append('OD') 
                         faltan = faltan + 1
@@ -302,23 +302,24 @@ def buscar_con_parametros_en_arbol_excel(ruta_raiz, parametros_busqueda):
         return pd.DataFrame()
 
 
-ruta_de_la_carpeta_raiz = 'S:/SEC/TTRTUCA/0- TT04 Master Plan/SPC TT04 2015/SPC CASING TT04' 
+ruta_de_la_carpeta_raiz = 'S:/SEC/TTRTUCA/0- TT04 Master Plan/SPC TT04 2015/SPC TPC TT04' 
 
 
 
 parametros_de_busqueda = {
     'Grado': 'N80',  
-    'Clave': '302',
-    'OD (mm)':'177',
-    'WT (mm)': '11',
-    'Proveedor': 'TAMSA' 
+    #'Clave': '654',
+    'OD (mm)':'93',
+    'WT (mm)': '12',
+    #'Proveedor': 'TAMSA',
+    #'Tipo' : 'TPC' 
 }
 
 
-buscar_con_parametros_en_arbol_excel(ruta_de_la_carpeta_raiz, parametros_de_busqueda)
+#buscar_con_parametros_en_arbol_excel(ruta_de_la_carpeta_raiz, parametros_de_busqueda)
 
 #print(buscar_con_parametros_en_arbol_excel(ruta_de_la_carpeta_raiz, parametros_de_busqueda))
-#verify_Data(f'S:/SEC/TTRTUCA/0- TT04 Master Plan/SPC TT04 2015/SPC CASING TT04/{buscar_con_parametros_en_arbol_excel(ruta_de_la_carpeta_raiz, parametros_de_busqueda)}')
+verify_Data(f'S:/SEC/TTRTUCA/0- TT04 Master Plan/SPC TT04 2015/SPC TPC TT04/{buscar_con_parametros_en_arbol_excel(ruta_de_la_carpeta_raiz, parametros_de_busqueda)}')
 
 
 
